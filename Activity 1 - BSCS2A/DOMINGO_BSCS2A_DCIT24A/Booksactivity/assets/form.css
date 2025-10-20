@@ -1,0 +1,74 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+form {
+    max-width: 500px;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border 0.2s ease-in-out;
+}
+
+input:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+.formBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.formBtn:hover {
+    background-color: #357abd;
+}
+
+select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #333;
+    transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
